@@ -1,0 +1,77 @@
+body {
+	background-color: #000022;
+	color: #ffffff;
+	max-width: 50em;
+	margin: 0em auto;
+	padding: 1em;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+footer {
+	border-top: 0.25em solid #ff8800;
+	margin-top: 3em;
+}
+p, figure, ul, ol {
+	margin: 0.75em 0em;
+}
+a {
+	text-decoration: none;
+	color: #ff8800;
+}
+img {
+	max-width: 100%;
+}
+.skip-to-main {
+	position: absolute;
+	width: 25%;
+}
+.skip-to-main a {
+	position: absolute;
+	border: 0.25em solid black;
+	padding: 0.5em;
+	background-color: white;
+	color: black;
+	z-index: 100;
+	top: -100em;
+}
+.skip-to-main a:focus {
+	top: 0em;
+}
+.site-title, h1, h2, h3 {
+	font-weight: bold;
+}
+.site-title {
+	text-align: left;
+	font-size: 2em;
+	margin-top: 0em;
+}
+h1 {
+	font-size: 2em;
+	margin-top: 0.75em;
+	margin-bottom: 0.375em;
+}
+h2 {
+	font-size: 1.5em;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+h3 {
+	font-size: 1em;
+	margin-top: 1.5em;
+	margin-bottom: 0.75em;
+}
+.big-quotation blockquote {
+	font-size: 3em;
+	font-style: italic;
+	margin: 0.25em 0em;
+}
+.site-note {
+	font-size: 0.75em;
+	margin: 1em 0em;
+}
+@media print {
+	body {
+		max-width: 100%;
+		padding: 0em;
+	}
+}

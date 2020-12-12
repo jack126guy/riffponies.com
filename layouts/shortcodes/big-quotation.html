@@ -1,0 +1,8 @@
+<figure class="big-quotation">
+	<blockquote>
+	{{ .Get "quotation" | markdownify }}
+	</blockquote>
+	<figcaption>
+		—{{ .Get "source" | markdownify }}
+	</figcaption>
+</figure>
