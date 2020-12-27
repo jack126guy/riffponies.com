@@ -1,9 +1,0 @@
-Options -Indexes
-
-RewriteEngine on
-RewriteBase /
-RewriteCond %{HTTPS} !=on
-RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
-Header set Strict-Transport-Security "max-age=31536000; includeSubDomains" env=HTTPS
-
-ErrorDocument 404 /notfound/
