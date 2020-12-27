@@ -1,5 +1,5 @@
 baseURL = "https://riffponies.com/"
-languageCode = "en-us"
+defaultContentLanguage = "en"
 title = "RiffPonies.com"
 
 disableKinds = ["RSS", "taxonomy", "term"]
